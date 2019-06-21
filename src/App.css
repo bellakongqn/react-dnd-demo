@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+.card{
+  display: flex;
+  margin: 50px;
+  
+}
+.card div{
+  margin-right: 20px;
+  background: #282c34;
+}
