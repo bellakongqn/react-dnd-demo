@@ -6,7 +6,7 @@ import DragList from '../src/DragList/DragList';
 import Pagination from '../src/Pagination/Pagination'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Pagination config ={24}/>, document.getElementById('root'));
+ReactDOM.render(<Pagination config ={14}/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
