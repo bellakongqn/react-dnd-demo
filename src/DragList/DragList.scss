@@ -1,0 +1,26 @@
+.drag-list{
+    padding: 20px;
+}
+.list-container{
+    display: flex;
+    flex-direction: row;
+    
+    .list-title{
+    margin-right: 20px;
+    background: #dcdcdc;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    }
+}
+.list-item{
+    height: 20px;
+    width: 100px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: pink;
+    
+}

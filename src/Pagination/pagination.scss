@@ -1,0 +1,40 @@
+ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   li{
+       padding: 5px;
+       border: 1px solid #dcdcdc;
+       text-align: center;
+       height: 20px;
+       line-height: 20px;
+       width: 30px;
+       cursor: pointer;
+       &:first-of-type,&:last-of-type{
+           width: auto;
+           padding: 0 5px;
+           height: 30px;
+           line-height: 30px;
+       }
+       &:first-of-type{
+        margin-right:10px;
+        }
+
+        &:last-of-type{
+            margin-left:10px;
+        }
+   }
+   .active{
+    color:#fff !important;
+    background: #54b0bd;
+    border-color:#54b0bd !important;
+  }
+  .ellipsis{
+    border:none !important;
+    margin:0 10px;
+    cursor: default !important;
+}
+.disabled{
+    color: #dcdcdc;
+}
+}

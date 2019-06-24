@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CardItem from './CardItem'
 import {DragDropContext} from 'react-dnd'
 import HTML5Backend from 'react-dnd-html5-backend'
-import './App.css';
+import '../App.scss';
 
 const CardList = [{ //定义卡片内容
     title:"first Card",
